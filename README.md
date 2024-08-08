@@ -6,3 +6,5 @@
 - openssl req -new -key key.pem -out cert.csr -passin pass:{your password}
 - openssl x509 -req -days {days} -in cert.csr -signkey key.pem -out cert.pem
 
+
+![Image about SSL function](images/SSL.jpg)
