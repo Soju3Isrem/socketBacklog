@@ -1,0 +1,25 @@
+{
+  "name": "socketbacklog",
+  "version": "1.0.0",
+  "description": "Seeks to keep track of the time and date of connection and disconnection of exhausted devices.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Soju3Isrem/socketBacklog.git"
+  },
+  "author": "Josue Isem from Pixan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Soju3Isrem/socketBacklog/issues"
+  },
+  "homepage": "https://github.com/Soju3Isrem/socketBacklog#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "fs": "^0.0.1-security",
+    "ws": "^8.18.0"
+  }
+}
